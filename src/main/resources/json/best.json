@@ -1,0 +1,581 @@
+{
+  "msgExtSystemId": "2977044404",
+  "documents": {
+    "illustrations": [
+      {
+        "attExtSystemId": "95874222931158",
+        "version": "1.0.65",
+        "illuNumber": "TUS794887138298",
+        "illuDate": "2016-10-06T00:00:00.000Z",
+        "prodCode": "6103",
+        "totalPPF": 1634.54,
+        "roles": {
+          "mainLA": {
+            "personName": "Olga",
+            "personAge": 30,
+            "mainCover": {
+              "covCode": "PRUPENS",
+              "covGtc": "REE/1/2016",
+              "covDurY": 20,
+              "covDurM": 0,
+              "covFrq": "12",
+              "covPremPF": 1370.27,
+              "covSumAsrd": 404355,
+              "idxRate": "2.5",
+              "idx": 1,
+              "covInvProf": "CAUTIOUS",
+              "covRop": 1,
+              "gdben": 328864.80,
+              "gmben": 328864.80,
+              "emben": 567900.00,
+              "gmb": 430188,
+              "ropVal": 328864.80,
+              "pemben": 500084,
+              "oemben": 646394,
+              "gmsat": 58610901,
+              "tab": 1887196,
+              "finbon": 77302399,
+              "totprem": 28566000,
+              "endYears": [
+                {
+                  "year": "1",
+                  "p1": 35175218,
+                  "p2": 11992173,
+                  "p3": 88581858,
+                  "p4": 14096506,
+                  "p5": 5861922,
+                  "p6": 33802406,
+                  "p7": 99386679,
+                  "p8": 1199
+                },
+                {
+                  "year": "2",
+                  "p1": 76148226,
+                  "p2": 41446415,
+                  "p3": 79011114,
+                  "p4": 62809005,
+                  "p5": 175317,
+                  "p6": 16806932,
+                  "p7": 96453145,
+                  "p8": 99078342
+                },
+                {
+                  "year": "3",
+                  "p1": 97588255,
+                  "p2": 68663174,
+                  "p3": 57209903,
+                  "p4": 39023477,
+                  "p5": 14742166,
+                  "p6": 26163836,
+                  "p7": 61062625,
+                  "p8": 73751054
+                },
+                {
+                  "year": "4",
+                  "p1": 64453080,
+                  "p2": 78402536,
+                  "p3": 47730775,
+                  "p4": 54788292,
+                  "p5": 54433212,
+                  "p6": 191343,
+                  "p7": 70869880,
+                  "p8": 75425592
+                },
+                {
+                  "year": "5",
+                  "p1": 23505846,
+                  "p2": 35467165,
+                  "p3": 38291168,
+                  "p4": 54845439,
+                  "p5": 18285336,
+                  "p6": 47909682,
+                  "p7": 8591391,
+                  "p8": 13002164
+                },
+                {
+                  "year": "6",
+                  "p1": 25513705,
+                  "p2": 1929254,
+                  "p3": 1802446,
+                  "p4": 41507290,
+                  "p5": 53367555,
+                  "p6": 24214928,
+                  "p7": 72433248,
+                  "p8": 63502641
+                },
+                {
+                  "year": "7",
+                  "p1": 61221243,
+                  "p2": 30875082,
+                  "p3": 60183333,
+                  "p4": 65677330,
+                  "p5": 3375511,
+                  "p6": 67089001,
+                  "p7": 1640535,
+                  "p8": 13122713
+                },
+                {
+                  "year": "8",
+                  "p1": 88323286,
+                  "p2": 5191936,
+                  "p3": 94078815,
+                  "p4": 65993739,
+                  "p5": 74917616,
+                  "p6": 5357581,
+                  "p7": 21905368,
+                  "p8": 67929200
+                },
+                {
+                  "year": "9",
+                  "p1": 52275060,
+                  "p2": 18881462,
+                  "p3": 62251068,
+                  "p4": 32195273,
+                  "p5": 75333687,
+                  "p6": 69363581,
+                  "p7": 8701856,
+                  "p8": 55646858
+                },
+                {
+                  "year": "10",
+                  "p1": 43903363,
+                  "p2": 42551895,
+                  "p3": 98517987,
+                  "p4": 79546069,
+                  "p5": 63679484,
+                  "p6": 76174785,
+                  "p7": 38235059,
+                  "p8": 74441564
+                },
+                {
+                  "year": "11",
+                  "p1": 86329297,
+                  "p2": 66478481,
+                  "p3": 23822269,
+                  "p4": 74359258,
+                  "p5": 21517865,
+                  "p6": 30418971,
+                  "p7": 67899774,
+                  "p8": 16964895
+                },
+                {
+                  "year": "12",
+                  "p1": 26357804,
+                  "p2": 27544022,
+                  "p3": 71539480,
+                  "p4": 46098456,
+                  "p5": 32112845,
+                  "p6": 61454264,
+                  "p7": 63090340,
+                  "p8": 96839107
+                },
+                {
+                  "year": "13",
+                  "p1": 36002464,
+                  "p2": 52275514,
+                  "p3": 58109841,
+                  "p4": 21387908,
+                  "p5": 89794215,
+                  "p6": 46930996,
+                  "p7": 1493422,
+                  "p8": 24946890
+                },
+                {
+                  "year": "14",
+                  "p1": 34656142,
+                  "p2": 25050844,
+                  "p3": 98654366,
+                  "p4": 52465428,
+                  "p5": 55971141,
+                  "p6": 5534561,
+                  "p7": 9976196,
+                  "p8": 62169885
+                },
+                {
+                  "year": "15",
+                  "p1": 79662509,
+                  "p2": 93772276,
+                  "p3": 73090436,
+                  "p4": 65941892,
+                  "p5": 31886923,
+                  "p6": 31930041,
+                  "p7": 90425430,
+                  "p8": 52673377
+                },
+                {
+                  "year": "16",
+                  "p1": 79662509,
+                  "p2": 93772276,
+                  "p3": 73090436,
+                  "p4": 65941892,
+                  "p5": 31886923,
+                  "p6": 31930041,
+                  "p7": 90425430,
+                  "p8": 52673377
+                },
+                {
+                  "year": "17",
+                  "p1": 79662509,
+                  "p2": 93772276,
+                  "p3": 73090436,
+                  "p4": 65941892,
+                  "p5": 31886923,
+                  "p6": 31930041,
+                  "p7": 90425430,
+                  "p8": 52673377
+                },
+                {
+                  "year": "18",
+                  "p1": 79662509,
+                  "p2": 93772276,
+                  "p3": 73090436,
+                  "p4": 65941892,
+                  "p5": 31886923,
+                  "p6": 31930041,
+                  "p7": 90425430,
+                  "p8": 52673377
+                },
+                {
+                  "year": "19",
+                  "p1": 79662509,
+                  "p2": 93772276,
+                  "p3": 73090436,
+                  "p4": 65941892,
+                  "p5": 31886923,
+                  "p6": 31930041,
+                  "p7": 90425430,
+                  "p8": 52673377
+                },
+                {
+                  "year": "20",
+                  "p1": 79662509,
+                  "p2": 93772276,
+                  "p3": 73090436,
+                  "p4": 65941892,
+                  "p5": 31886923,
+                  "p6": 31930041,
+                  "p7": 90425430,
+                  "p8": 52673377
+                }
+              ]
+            },
+            "riders": [
+              {
+                "covCode": "FUNCLOSS",
+                "covGtc": "ZBX/4/2016",
+                "covDurY": 10,
+                "covDurM": 0,
+                "covPremPF": 15.07,
+                "renevalReq": false,
+                "covSumAsrd": 100000.00,
+                "endingAge": 4190
+              }
+            ]
+          },
+          "poliHolder": {
+            "personName": "Olga",
+            "personAge": 30,
+            "waivers": [
+              {
+                "covCode": "WOPSIL",
+                "covGtc": "WOSI/3/2016",
+                "covDurY": 20,
+                "covDurM": 0,
+                "covPremPF": 15.05,
+                "renevalReq": false,
+                "withIdx": 743
+              },
+              {
+                "covCode": "WOPLOF",
+                "covGtc": "DBA/3/2016",
+                "covDurY": 20,
+                "covDurM": 0,
+                "covPremPF": 45.45,
+                "renevalReq": true,
+                "withIdx": 23304
+              },
+              {
+                "covCode": "WOPTPD",
+                "covGtc": "WODI/1/2016",
+                "covDurY": 20,
+                "covDurM": 0,
+                "covPremPF": 25.45,
+                "renevalReq": false,
+                "withIdx": 5947
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "agentCv": {
+      "attExtSystemId": "95874000931158",
+      "version": "8.98.08",
+      "agentCvParts": [
+        {
+          "cvPartCode": "HEA_DER_1",
+          "cvPartValue": "Lorem ipsu"
+        },
+        {
+          "cvPartCode": "PARA_GRAPH_1",
+          "cvPartValue": "Dolor sit amet"
+        }
+      ]
+    },
+    "needsReport": {
+      "attExtSystemId": "51140255444587",
+      "version": "3.59.4",
+      "reportedNeeds": [
+        {
+          "needCode": "PEN_SION_1",
+          "needResons": [
+            {
+              "needRsnCode": "UDSKLL_QMJ_6"
+            },
+            {
+              "needRsnCode": "OVO_KGFT_4"
+            },
+            {
+              "needRsnCode": "GANBKPZKV_OXVAKMEA_0"
+            }
+          ]
+        }
+      ]
+    },
+    "gapReport": {
+      "attExtSystemId": "57956889305159",
+      "version": "5.35.35",
+      "reportedGaps": [
+        {
+          "gapCode": "HEA_LTH_1",
+          "gapAttrGrp": [
+            {
+              "gapAttGrpCode": "WETHENUCR_SKPRITLI_9",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "PUYGSIZV_FGL_6",
+                  "gapAttrValue": "1"
+                },
+                {
+                  "gapAttrCode": "IAWBQ_PLGFVAEP_6",
+                  "gapAttrValue": "23"
+                }
+              ]
+            },
+            {
+              "gapAttGrpCode": "QKMDQXQQW_TVBDNS_1",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "KCXSZZ_BFQPI_6",
+                  "gapAttrValue": "235"
+                },
+                {
+                  "gapAttrCode": "FGCKGBZK_BJQTYC_3",
+                  "gapAttrValue": "125"
+                },
+                {
+                  "gapAttrCode": "IKTJCCDRI_OAAQZNI_4",
+                  "gapAttrValue": "12"
+                }
+              ]
+            },
+            {
+              "gapAttGrpCode": "IPFTQH_CEBNIAD_5",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "MVB_VBHXZIP_0",
+                  "gapAttrValue": "7"
+                },
+                {
+                  "gapAttrCode": "XFW_BMY_9",
+                  "gapAttrValue": "85"
+                }
+              ]
+            },
+            {
+              "gapAttGrpCode": "QGSODOVJ_KFZ_9",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "FRBI_SWMCHW_7",
+                  "gapAttrValue": "35"
+                },
+                {
+                  "gapAttrCode": "JNJRC_EJQCJFREJ_5",
+                  "gapAttrValue": "1265.80"
+                },
+                {
+                  "gapAttrCode": "VVZ_RJOUINTX_6",
+                  "gapAttrValue": "165.33"
+                }
+              ]
+            },
+            {
+              "gapAttGrpCode": "NBUYMSTFW_PVYOXN_6",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "PDLLLPPW_QWRJPLN_0",
+                  "gapAttrValue": "16558.85"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gapCode": "PEN_SION_2",
+          "gapAttrGrp": [
+            {
+              "gapAttGrpCode": "VMMQWS_JDOYW_3",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "FFKMXIH_EQEBX_2",
+                  "gapAttrValue": "2365.3"
+                }
+              ]
+            },
+            {
+              "gapAttGrpCode": "HJVIZ_RYBO_8",
+              "gapAttr": [
+                {
+                  "gapAttrCode": "DYIK_ZUA_9",
+                  "gapAttrValue": "65533"
+                },
+                {
+                  "gapAttrCode": "BKMAYTJZC_TSFTKFY_5",
+                  "gapAttrValue": "2"
+                },
+                {
+                  "gapAttrCode": "ATBL_UNGR_7",
+                  "gapAttrValue": "7"
+                },
+                {
+                  "gapAttrCode": "TAE_UOXWZARE_7",
+                  "gapAttrValue": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "meetingSummary": {
+      "attExtSystemId": "57956889305159",
+      "version": "5.35.35",
+      "meSuAreas": [
+        {
+          "meSuArValue": false
+        }
+      ]
+    },
+    "adequacy": {
+      "attExtSystemId": "57956889305159",
+      "version": "1.0.0",
+      "personName": "Olga",
+      "personSurname": "Kowalska",
+      "personPESEL": "86120202180",
+      "personPhone": "+48666555444",
+      "adequacyData": {
+        "questionnaire": {
+          "questions": [
+            {
+              "queCode": "DMDOWU_EAQND_1",
+              "queAnswrs": [
+                {
+                  "ansCode": "JPC_SEWJSXX_4",
+                  "ansValue": "idff",
+                  "valueType": "string"
+                }
+              ]
+            },
+            {
+              "queCode": "VQA_LFL_6",
+              "queAnswrs": [
+                {
+                  "ansCode": "ZDNMBPZZ_ERDFLXK_7",
+                  "ansValue": "id qui in dolor",
+                  "valueType": "string"
+                },
+                {
+                  "ansCode": "LKET_NECSDBIU_9",
+                  "ansValue": "true",
+                  "valueType": "boolean"
+                },
+                {
+                  "ansCode": "LALKD_ZJN_5",
+                  "ansValue": "125",
+                  "valueType": "number"
+                }
+              ]
+            },
+            {
+              "queCode": "OKOMFHJD_JWVPRAAE_6",
+              "queAnswrs": [
+                {
+                  "ansCode": "SCNQA_GUSYDWEKU_5",
+                  "ansValue": "false",
+                  "valueType": "boolean"
+                },
+                {
+                  "ansCode": "BJNGXZNVM_SSFZJN_2",
+                  "ansValue": "true",
+                  "valueType": "boolean"
+                },
+                {
+                  "ansCode": "FVDV_NVMVSJE_9",
+                  "ansValue": "do irure",
+                  "valueType": "string"
+                },
+                {
+                  "ansCode": "FYJFGREQO_IEG_3",
+                  "ansValue": "CODE_1",
+                  "valueType": "string"
+                }
+              ]
+            },
+            {
+              "queCode": "YOLHW_ETWLCNOII_2",
+              "queAnswrs": [
+                {
+                  "ansCode": "ANS_DENIED_1",
+                  "ansValue": "true",
+                  "valueType": "boolean"
+                }
+              ]
+            },
+            {
+              "queCode": "QRJSD_INJKA_1",
+              "queAnswrs": [
+                {
+                  "ansCode": "ANS_DENIED_1",
+                  "ansValue": "true",
+                  "valueType": "boolean"
+                }
+              ]
+            }
+          ]
+        },
+        "report": {
+          "products": [
+            {
+              "prodCode": "6103",
+              "repCat": [
+                {
+                  "repCatCode": "REP_CODE_1",
+                  "repCatValue": "CODE_1"
+                },
+                {
+                  "repCatCode": "REP_CODE_2",
+                  "repCatValue": 45
+                },
+                {
+                  "repCatCode": "REP_CODE_3",
+                  "repCatValue": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "adequacyDenied": false
+    }
+  }
+}
