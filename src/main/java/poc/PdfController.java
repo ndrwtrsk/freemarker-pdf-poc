@@ -19,9 +19,7 @@ import java.io.Writer;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -33,12 +31,14 @@ import java.util.stream.IntStream;
 public class PdfController {
 
     private final Configuration configuration;
+    private final Gson gson;
 
     public PdfController() {
         configuration = new Configuration();
         configuration.setClassForTemplateLoading(getClass(), "/templates/");
         configuration.setDefaultEncoding("UTF-8");
         configuration.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
+        gson = new Gson();
     }
 
     @RequestMapping("/")
@@ -46,14 +46,13 @@ public class PdfController {
         return "Hello";
     }
 
-
-    @RequestMapping("/random")
-    public void random(HttpServletResponse response) throws IOException, TemplateException, URISyntaxException {
+    @RequestMapping("/freemarkerHtml")
+    public void freemarkHtmlNodePdf(HttpServletResponse response) throws IOException, TemplateException, URISyntaxException {
         Map model = new HashMap();
-        model.put("randomData", getRandomValues());
-        Template template = configuration.getTemplate("test.ftlh");
+        model.put("randomData", generateRandomValues());
+        Template template = configuration.getTemplate("test.ftl");
         RestTemplate restTemplate = new RestTemplate();
-        URI url = new URI("http://localhost:3000/generatehtml");
+        URI url = new URI("http://localhost:3000/generate-pdf-from-html");
         ResourceReader reader = new StreamResourceReader(response);
         RequestCallback cb = clientHttpRequest -> {
             Writer writer = new OutputStreamWriter(clientHttpRequest.getBody());
@@ -66,6 +65,20 @@ public class PdfController {
             }
         };
         restTemplate.execute(url, HttpMethod.POST, cb, new StreamResponseExtractor(reader));
+    }
+
+    @RequestMapping("/nodeHtmlPdf")
+    public void nodeHtmlPdf(HttpServletResponse response) throws URISyntaxException {
+        RestTemplate restTemplate = new RestTemplate();
+        URI uri = new URI("http://localhost:3000/generate-pdf-from-data");
+        ResourceReader reader = new StreamResourceReader(response);
+        RequestCallback cb = clientHttpRequest -> {
+            Writer writer = new OutputStreamWriter(clientHttpRequest.getBody());
+            writer.write(generateRandomValues());
+            writer.flush();
+            clientHttpRequest.getHeaders().setContentType(MediaType.TEXT_PLAIN);
+        };
+        restTemplate.execute(uri, HttpMethod.POST, cb, new StreamResponseExtractor(reader));
     }
 
     @RequestMapping("/resp")
@@ -92,4 +105,12 @@ public class PdfController {
         return gson.toJson(randomValues);
     }
 
+    private String generateRandomValues() {
+        Random random = new Random();
+        List<Integer> list = IntStream.range(0, random.nextInt(30 + 1))
+                .boxed()
+                .map(val -> random.nextInt(30 + 1))
+                .collect(Collectors.toList());
+        return gson.toJson(list);
+    }
 }
