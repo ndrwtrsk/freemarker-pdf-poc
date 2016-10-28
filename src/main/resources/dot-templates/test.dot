@@ -1,0 +1,404 @@
+<html>
+<head>
+    <title>Welcome!</title>
+
+</head>
+<body>
+
+<table class="columns">
+    <tr>
+        <td>
+            <div class="rcorners5">
+                <div id="pie_div"></div>
+            </div>
+        </td>
+        <td>
+            <div class="rcorners5">
+            <div id="bar_div"></div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="column_div"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="line_div"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="table_div"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="trendlines_div"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div id="donutchart_div"></div>
+        </td>
+        <td>
+            <div id="3dPie_div"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+                    <div class="rcorners5">
+                <div id="visualization_div"></div>
+            </div>
+            
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="stepped_div"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <div id="scatter_div"></div>
+        </td>
+    </tr>
+    <tr style="color:#FF0000">
+        <td>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+        <td>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+        <td>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr style="color:#0000FF">
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis leo arcu, vel sodales velit aliquam in. Integer ultrices egestas justo suscipit porta. Vestibulum ullamcorper purus sit amet facilisis viverra. Pellentesque sed orci iaculis, euismod augue ac, facilisis risus. Mauris nisl purus, gravida pulvinar dictum eget, finibus ut turpis. Mauris aliquam dignissim nulla, quis bibendum nisi pulvinar eu. Mauris hendrerit luctus gravida. Aliquam vestibulum massa id finibus sagittis. Nulla pretium, erat a laoreet volutpat, urna libero lacinia tellus, id ultricies quam augue luctus odio.
+        </td>
+    </tr>
+</table>
+
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script>
+
+    var injectedData = {{=it.data}}
+
+    console.log('Loaded')
+    google.load("visualization", "1", {
+        packages: ['corechart', 'table', 'bar'],
+        callback: draw
+    });
+
+    function draw() {
+        drawChart();
+        drawLineChart();
+        drawTable();
+        drawColColors();
+        drawTrendlines();
+        drawVisualization();
+        drawDonutChart();
+        draw3dPieChart();
+        drawSteppedChart();
+        window.PHANTOM_HTML_TO_PDF_READY = true;
+    }
+
+    function drawChart() {
+        console.log("Drawing..");
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        injectedData.forEach(function(val, i){
+            data.addRow(['Mushrooms' + i, val]);
+        });
+
+        // Set chart options
+        var options = {
+            'title': 'How Much Pizza I Ate Last Night',
+            'width': 400,
+            'height': 300
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var pie = new google.visualization.PieChart(document.getElementById('pie_div'));
+        pie.draw(data, options);
+
+        var barChart = new google.visualization.BarChart(document.getElementById('bar_div'));
+        barChart.draw(data, options);
+    }
+
+    function drawLineChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Month');
+        data.addColumn('number', 'Apples');
+        data.addColumn('number', 'Oranges');
+
+        for (var i = 0; i < Math.floor((Math.random() * 30) + 1); i++)
+            data.addRow(['Oct ' + i, Math.floor((Math.random() * 100) + 1), Math.floor((Math.random() * 100) + 1)]);
+
+        injectedData.forEach(function(val, i){
+            data.addRow(['Oct ' + i, val, val]);
+        });
+
+        var options = {
+            'width': 960,
+            'height': 300
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('line_div'));
+        chart.draw(data, options);
+    }
+
+    function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('number', 'Salary');
+        data.addColumn('boolean', 'Full Time Employee');
+
+        injectedData.forEach(function(val, i){
+            data.addRow(['Mike' + i, {v: val, f: val + ''}, true]);
+        });
+
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+        table.draw(data, {
+            showRowNumber: true,
+            width: '100%',
+            height: '100%'
+        });
+    }
+
+    function drawColColors() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('timeofday', 'Time of Day');
+        data.addColumn('number', 'Motivation Level');
+        data.addColumn('number', 'Energy Level');
+
+        injectedData.forEach(function(val, i){
+            data.addRow([{
+                v: [i, 0, 0],
+                f: '8 am'
+            }, val, val]);
+        });
+
+        var options = {
+            title: 'Motivation and Energy Level Throughout the Day',
+            colors: ['#9575cd', '#33ac71'],
+            hAxis: {
+                title: 'Time of Day',
+                format: 'h:mm a',
+                viewWindow: {
+                    min: [7, 30, 0],
+                    max: [17, 30, 0]
+                }
+            },
+            vAxis: {
+                title: 'Rating (scale of 1-10)'
+            }
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('column_div'));
+        chart.draw(data, options);
+    }
+
+    function drawTrendlines() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('timeofday', 'Time of Day');
+        data.addColumn('number', 'Motivation Level');
+        data.addColumn('number', 'Energy Level');
+
+
+        injectedData.forEach(function(val, i){
+            data.addRow([{
+                v: [i, 0, 0],
+                f: '8 am'
+            }, val, val]);
+        });
+
+        var options = {
+            title: 'Motivation and Energy Level Throughout the Day',
+            trendlines: {
+                0: {
+                    type: 'linear',
+                    lineWidth: 5,
+                    opacity: .3
+                },
+                1: {
+                    type: 'exponential',
+                    lineWidth: 10,
+                    opacity: .3
+                }
+            },
+            hAxis: {
+                title: 'Time of Day',
+                format: 'h:mm a',
+                viewWindow: {
+                    min: [7, 30, 0],
+                    max: [17, 30, 0]
+                }
+            },
+            vAxis: {
+                title: 'Rating (scale of 1-10)'
+            }
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('trendlines_div'));
+        chart.draw(data, options);
+    }
+
+    function drawVisualization() {
+        var data = google.visualization.arrayToDataTable([['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
+            ['2004/05', Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1)],
+            ['2005/06', Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1)],
+            ['2006/07', Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1)],
+            ['2007/08', Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1)],
+            ['2008/09', Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1)]
+        ]);
+
+        for (var i = 0; i < Math.floor((Math.random() * 30) + 1); i++)
+            data.addRow(['2016/12', Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1), Math.floor((Math.random() * 2000) + 1)]);
+
+        injectedData.forEach(function(val, i){
+            data.addRow(['2016/12', val, val, val, val, val, val]);
+        });
+
+        var options = {
+            title: 'Monthly Coffee Production by Country',
+            vAxis: {
+                title: 'Cups'
+            },
+            hAxis: {
+                title: 'Month'
+            },
+            seriesType: 'bars',
+            series: {
+                5: {
+                    type: 'line'
+                }
+            }
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('visualization_div'));
+        chart.draw(data, options);
+    }
+
+    function drawDonutChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['Work', Math.floor((Math.random() * 30) + 1)],
+            ['Eat', Math.floor((Math.random() * 30) + 1)],
+            ['Commute', Math.floor((Math.random() * 30) + 1)],
+            ['Watch TV', Math.floor((Math.random() * 30) + 1)],
+            ['Sleep', Math.floor((Math.random() * 30) + 1)]
+        ]);
+
+
+        injectedData.forEach(function(val, i){
+            data.addRow(['Work' + i, val]);
+        });
+
+        var options = {
+            title: 'My Daily Activities',
+            pieHole: Math.random()
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart_div'));
+        chart.draw(data, options);
+    }
+
+    function draw3dPieChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['Work', Math.floor((Math.random() * 20) + 1)],
+            ['Eat', Math.floor((Math.random() * 20) + 1)],
+            ['Commute', Math.floor((Math.random() * 20) + 1)],
+            ['Watch TV', Math.floor((Math.random() * 20) + 1)],
+            ['Sleep', Math.floor((Math.random() * 20) + 1)]
+        ]);
+
+        injectedData.forEach(function(val, i){
+            data.addRow(['Work' + i, val]);
+        });
+
+        var options = {
+            title: 'My Daily Activities',
+            is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('3dPie_div'));
+        chart.draw(data, options);
+    }
+
+    function drawSteppedChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Director (Year)', 'Rotten Tomatoes', 'IMDB'],
+            ['Alfred Hitchcock (1935)', Math.floor((Math.random() * 20) + 1), Math.floor((Math.random() * 20) + 1)],
+            ['Ralph Thomas (1959)', Math.floor((Math.random() * 20) + 1), Math.floor((Math.random() * 20) + 1)],
+            ['Don Sharp (1978)', Math.floor((Math.random() * 20) + 1), Math.floor((Math.random() * 20) + 1)],
+            ['James Hawes (2008)', Math.floor((Math.random() * 20) + 1), Math.floor((Math.random() * 20) + 1)]
+        ]);
+
+        for (var i = 0; i < Math.floor((Math.random() * 30) + 1); i++)
+            data.addRow(['Alfred Hitchcock (1935)' + i, Math.floor((Math.random() * 20) + 1), Math.floor((Math.random() * 20) + 1)]);
+
+
+        injectedData.forEach(function(val, i){
+            data.addRow(['Alfred Hitchcock (1935)' + i, val, val]);
+        });
+
+        var options = {
+            title: 'The decline of \'The 39 Steps\'',
+            vAxis: {
+                title: 'Accumulated Rating'
+            },
+            isStacked: true
+        };
+
+        var chart = new google.visualization.SteppedAreaChart(document.getElementById('stepped_div'));
+        chart.draw(data, options);
+        var scatter = new google.visualization.ScatterChart(document.getElementById('scatter_div'));
+        scatter.draw(data, options);
+    }
+
+</script>
+</body>
+</html>

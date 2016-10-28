@@ -13,13 +13,15 @@ import org.springframework.web.client.RequestCallback;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.*;
+import java.nio.charset.Charset;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -90,6 +92,31 @@ public class PdfController {
         URI url = new URI("http://localhost:3000/generatehtml");
         String response = template.postForObject(url, model, String.class);
         System.out.println(response);
+    }
+
+    /**
+     * Send dot template and data to node js and get back pdf response and forward it.
+     */
+    @RequestMapping("/send-data-and-template")
+    public void testNewPrudentialReq(HttpServletResponse response) throws IOException, URISyntaxException {
+        InputStream dotTemplateStream = getClass().getResourceAsStream("/dot-templates/test.dot");
+        StringWriter writer = new StringWriter();
+        org.apache.commons.io.IOUtils.copy(dotTemplateStream, writer, Charset.defaultCharset());
+        String html = writer.toString();
+        String data = generateRandomValues();
+        Map model = new HashMap();
+        model.put("html", html);
+        model.put("data", data);
+        RestTemplate restTemplate = new RestTemplate();
+        URI url = new URI("http://localhost:3000/generate-pdf-from-data-and-dot-template");
+        RequestCallback cb = clientHttpRequest -> {
+            Writer nodeWriter = new OutputStreamWriter(clientHttpRequest.getBody());
+            nodeWriter.write(gson.toJson(model));
+            nodeWriter.flush();
+            clientHttpRequest.getHeaders().setContentType(MediaType.APPLICATION_JSON);
+        };
+        ResourceReader reader = new StreamResourceReader(response);
+        restTemplate.execute(url, HttpMethod.POST, cb, new StreamResponseExtractor(reader));
     }
 
     public static String getRandomValues(){
